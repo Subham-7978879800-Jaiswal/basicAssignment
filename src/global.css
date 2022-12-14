@@ -1,0 +1,86 @@
+:root {
+    --white: #ffffff;
+    --orange:#FF8412;
+    --light-orange: #ff8512ce;
+    --purple:#B1008A;
+    --lightBlue:#0037C5;
+    --blue:#060D67;
+    --darkBlue:#08005F;
+    --black:#000000;
+    --grey:#F7F7F7
+}
+/* ## Gradients */
+.background-orange-gradient{
+background: linear-gradient(94.33deg, var(--orange) 22.44%, var(--orange) 22.45%, var(--purple) 124.46%)
+}
+.background-purple-gradient {
+background: linear-gradient(93.12deg, var(--purple) -19.35%, var(--blue) 122.43%);
+}
+
+.background-blue-gradient {
+    background: linear-gradient(96.25deg, var(--lightBlue) 8.58%, var(--darkBlue) 102.54%)
+}
+/* ## Colors */
+.color-white{
+    color:var(--white)
+}
+
+.color-black{
+    color: var(--white)
+}
+.color-orange{
+    color: var(--orange)
+}
+/* ## Border Colors */
+.border-white{
+    border: 1px solid var(--white) !important;
+}
+
+.border-light-orange {
+    border: 2px solid var(--light-orange);
+}
+/* ## BackGround Colors */
+.background-color-white{
+    background-color: var(--white);
+}
+
+.background-color-grey{
+    background-color: var(--grey);
+}
+
+/* ## Font Weights */
+.font-weight700{
+    font-weight: 700;
+}
+/* ## Margins */
+.margin-right16{
+    margin-right: 16px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.padding-20{
+    padding: 20px;
+}
+.height-50{
+    height: 50px !important
+}
+
+.navbar-header{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+/* // ================================================================= */
+

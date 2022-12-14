@@ -1,0 +1,30 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+
+.image,.image-container {
+    height: 84px;
+    width: 84px;
+    border-radius: 50%;
+}
+
+.image-container{
+    margin: 30px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
