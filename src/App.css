@@ -3,14 +3,13 @@
 }
 
 .App {
-  border:1px solid #000000;
-  height: 740px;
-  width: 362px;
-  margin: auto;
-  padding: 24px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  gap: 16px;
+      height: 740px;
+      max-width: 312px;
+      margin: auto;
+      padding: 24px 22px 0px 24px ;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+     
 }
-

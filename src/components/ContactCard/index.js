@@ -10,12 +10,14 @@ const ContactCard = ({ imgUrl, infos }) => {
   return (
     <Card className="background-color-grey">
       <div className="button-container">
-        <Button className="background-orange-gradient color-white">
+        <Button className="font-size-13 background-orange-gradient color-white">
           Clinic
         </Button>
-        <Button className="background-orange-gradient color-white">Test</Button>
-        <Button className="">Surgery</Button>
-        <Button className="">Medicine</Button>
+        <Button className="font-size-13 background-orange-gradient color-white">
+          Test
+        </Button>
+        <Button className="font-size-13 padding-8">Surgery</Button>
+        <Button className="font-size-13 padding-8">Medicine</Button>
       </div>
 
       <div className="container">
@@ -29,14 +31,14 @@ const ContactCard = ({ imgUrl, infos }) => {
       </div>
 
       <div className="button-container">
-        <Button className="background-purple-gradient color-white">
+        <Button className="font-size-10 background-purple-gradient color-white">
           RESCHEDULE
         </Button>
-        <Button className="background-purple-gradient">
-          <Text className="color-white">CANCEL</Text>
+        <Button className="font-size-10 background-purple-gradient">
+          <Text className="color-white font-size-10">CANCEL</Text>
         </Button>
 
-        <Button className="">
+        <Button className="font-size-10 border-grey box-shadow-none background-color-white">
           <AiOutlineEye />
           VIEW
         </Button>
